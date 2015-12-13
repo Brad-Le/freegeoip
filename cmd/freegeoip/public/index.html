@@ -93,12 +93,6 @@ angular.module("freegeoip", [function($locationProvider) {
 			until your quota is cleared.
 			</p>
 
-			<br/>
-
-			<p class="text-center">
-				<a href="https://github.com/fiorix/freegeoip/releases/" class="btn btn-primary" target="_blank">Download</a>
-				<a href="https://github.com/fiorix/freegeoip" class="btn btn-primary" target="_blank">GitHub project</a>
-			</p>
 		</div>
 
 		<div class="col-sm-6" ng-controller="queryController">
@@ -185,35 +179,35 @@ angular.module("freegeoip", [function($locationProvider) {
 
 	<p>
 	Supported formats are:
-	<a href="http://en.wikipedia.org/wiki/Comma-separated_values" target="_blank">csv</a>,
-	<a href="http://en.wikipedia.org/wiki/XML" target="_blank">xml</a>,
-	<a href="http://en.wikipedia.org/wiki/JSON" target="_blank">json</a>
+	<a href="http://en.wikipedia.org/wiki/Comma-separated_values" target="_blank">CSV</a>,
+	<a href="http://en.wikipedia.org/wiki/XML" target="_blank">XML</a>,
+	<a href="http://en.wikipedia.org/wiki/JSON" target="_blank">JSON</a>
 	and
-	<a href="http://en.wikipedia.org/wiki/JSONP" target="_blank">jsonp</a>.
+	<a href="http://en.wikipedia.org/wiki/JSONP" target="_blank">JSONP</a>.
 	If no IP or hostname is provided, then your own IP is looked up.
 	</p>
 
 	<hr>
 
-	<h5>Examples</h5>
+	<h5>Example Usage</h5>
 	<div class="row">
 
-		<div class="col-sm-3">
+		<div class="col-sm-5">
 			<h5>CSV</h5>
 			<pre>geo.assaultcu.be/csv/8.8.8.8</pre>
 		</div>
 
-		<div class="col-sm-3">
+		<div class="col-sm-5">
 			<h5>XML</h5>
 			<pre>geo.assaultcu.be/xml/4.2.2.2</pre>
 		</div>
 
-		<div class="col-sm-3">
+		<div class="col-sm-5">
 			<h5>JSON</h5>
 			<pre>geo.assaultcu.be/json/github.com</pre>
 		</div>
 
-                <div class="col-sm-3">
+                <div class="col-sm-5">
                         <h5>JSONP</h5>
                         <pre>geo.assaultcu.be/json/?callback=google.com</pre>
                 </div>
