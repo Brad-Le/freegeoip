@@ -1,7 +1,7 @@
 FROM golang:1.5
 
-ADD . /go/src/github.com/fiorix/freegeoip
-WORKDIR /go/src/github.com/fiorix/freegeoip/cmd/freegeoip
+ADD . /go/src/github.com/Brad-Le/freegeoip
+WORKDIR /go/src/github.com/Brad-Le/freegeoip/cmd/freegeoip
 
 RUN go get
 RUN go install
